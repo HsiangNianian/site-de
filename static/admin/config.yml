@@ -1,5 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: HsiangNianian/site-de # Path to your GitHub repository
+  # optional, defaults to master
+  branch: main
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
